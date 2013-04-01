@@ -4,36 +4,51 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/960_12_col.css" />
 	<link rel="stylesheet" href="css/styles.css" />
-	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li> <a href="#">Home</a> </li>
-				<li> <a href="#">About</a> </li>
-				<li> <a href="#">Projects</a> </li>
-				<li> <a href="#">Events</a> </li>
-				<li> <a href="#">Contact Us</a> </li>
-			</ul>		
-		</nav>
-
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="grid_5">
+					<img class="left logo" src="images/eat-logo.png" width="100px"/>
+					<h2>Embedded Applications Technology</h2>
+				</div>
+				<nav>
+					<ul>
+						<li> <a href="#">Home</a> </li>
+						<li> <a href="#">About</a> </li>
+						<li> <a href="#">Projects</a> </li>
+						<li> <a href="#">Contact</a> </li>
+					</ul>		
+				</nav>
+			</div>
+		</div>
 	</header>
-	<div class="container_12">
 
+	<div class="padding-top"> <br/> </div>
+
+	<section class="banner">
+		<div class="container_12">
+			<div class="grid_12 ">
+				<br/><br/><br/><br><br/><br/><br><br/>
+				<br/><br><br/><br/><br><br/><br/><br/>
+			</div>
+		</div>	
+	</section>
+
+	<div class="container_12">
 		<section class="grid_12">
-			<h1>Embedded Applications Technology</h1>
 			<article class="subscriber-container">
 				<form class="subscriber" action="">
-					<input type="text">
-					<button type="button">Click Me!</button>
+					<input type="text" placeholder="Add your e-mail here to get e-mail updates" />
+					<button type="button"></button>
 				</form>
 			</article>
 		</section>
 		
 		<div class="clear"></div>
 		
-		<div class="grid_12"> <h2> Latest Happenings </h2> </div>
+		<div class="grid_12"> <h2> Latest Projects </h2> </div>
 
 		<div class="grid_4">
 			<p>
@@ -62,7 +77,16 @@
 	</div> <!-- End Container -->
 
 	<footer>
+		<div class="container_12">
+			<div class="grid_12">
+				<span> (C) Embedded Applications Society @ CSULB </span>
 
+			</div>
+		</div>
 	</footer>
 </body>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.js"></script>
 </html>
