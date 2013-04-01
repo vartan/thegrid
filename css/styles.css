@@ -2,6 +2,7 @@
 
 	body {
 		font-family: Roboto;
+		font-weight: 400px;
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -24,12 +25,20 @@
 		line-height: 60px;
 	}
 
-	p {
+	h4 {
 		color: #E6E6E6; /*gray*/
-		background-color: #004175; /*blue*/
+		background-color: #111; /*blue #004175*/
 		padding: 20px;
 		font-weight: 300;
 	}
+
+	p {
+		color: #E6E6E6; /*gray*/
+		background-color: #004175; /*blue */
+		padding: 20px;
+		font-weight: 300;
+	}
+
 
 	header h2 {
 		color: #fff;
