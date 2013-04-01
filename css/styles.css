@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
+<<<<<<< HEAD
 	body {
 		font-family: Roboto;
 		font-weight: 400px;
@@ -315,3 +316,328 @@
 	footer section {
 		padding: 20px;
 	}
+=======
+body {
+	font-family: Roboto;
+	font-weight: 400px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+header {
+	background-color: #111;
+	position: fixed;
+	width: 100%;
+}
+
+header h1 {
+	color: #fff;
+	margin-top: 80px;
+	font-family: Oswald;
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h4 {
+	color: #E6E6E6; /*gray*/
+	background-color: #111; /*blue #004175*/
+	padding: 20px;
+	font-weight: 300;
+}
+
+hgroup {
+	text-align: center;
+	line-height: 10px;
+}
+
+p {
+	color: #E6E6E6; /*gray*/
+	background-color: #004175; /*blue */
+	padding: 20px;
+	font-weight: 300;
+}
+
+header h2 {
+	color: #fff;
+	margin-top: 25px;
+	margin-left: 110px;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+
+.logo {
+	z-index: 9999;
+	position: absolute;
+}
+
+nav {
+	margin-top: 10px;
+	text-align: right;
+	padding: 20px 0 20px 20px;
+}
+
+nav ul {
+
+
+	/* To make horizontal */
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 50px;
+}
+
+nav a {
+	font-size: 14px;
+	color: #ccc;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #fff;
+	padding: 5px;
+	border-top: 5px solid #004175;
+	font-weight: 700px;
+}
+
+.subscriber-container {
+	z-index: -1;
+	position: relative;
+	background-color: #ccc;
+	padding: 30px;
+}
+
+.subscriber input {
+	font-size: 14px;
+	width: 700px;
+	margin-left: 50px;
+	padding: 8px;
+}
+
+.subscriber button {
+	position: absolute;
+	width: 60px;
+	top: 31;
+	right: 95;
+	background: #004175 url(../images/envelope.png) no-repeat center center;
+	padding: 11px;
+	border: .5px solid #000;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	text-align: right;
+}
+
+.padding-top {
+	padding-top: 60px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.about {
+	font-size: 23px;
+	padding: 20px 0px 20px 0px;
+}
+
+.border-top {
+	border-top: 1px solid #000;
+}
+
+/* BANNER */
+.banner {
+	background-color: #004175;
+	padding-top: 100px;
+	margin-bottom: 25px;
+	padding: 30px 0px 30px 0px;
+}
+
+.banner-wrap {
+	background-color: red;
+	width: 98%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+/* CAROUSEL */
+.carousel {
+	position: relative;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.carousel-inner {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+.carousel-inner > .item {
+	display: none;
+	position: relative;
+	-webkit-transition: 0.6s ease-in-out left;
+	-moz-transition: 0.6s ease-in-out left;
+	-o-transition: 0.6s ease-in-out left;
+	transition: 0.6s ease-in-out left;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	display: block;
+	line-height: 1;
+}
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+	display: block;
+}
+.carousel-inner > .active {
+	left: 0;
+}
+.carousel-inner > .next,
+.carousel-inner > .prev {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.carousel-inner > .next {
+	left: 100%;
+}
+.carousel-inner > .prev {
+	left: -100%;
+}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+	left: 0;
+}
+.carousel-inner > .active.left {
+	left: -100%;
+}
+.carousel-inner > .active.right {
+	left: 100%;
+}
+.carousel-control {
+	position: absolute;
+	top: 40%;
+	left: 15px;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 30px;
+	color: #ffffff;
+	text-align: center;
+	background: #222222;
+	border: 3px solid #ffffff;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.carousel-control.right {
+	left: auto;
+	right: 15px;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+	color: #ffffff;
+	text-decoration: none;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.carousel-indicators {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 5;
+	margin: 0;
+	list-style: none;
+}
+.carousel-indicators li {
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	text-indent: -999px;
+	background-color: #ccc;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 5px;
+}
+.carousel-indicators .active {
+	background-color: #fff;
+}
+.carousel-caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 15px;
+	background: #333333;
+	background: rgba(0, 0, 0, 0.75);
+}
+.carousel-caption h4,
+.carousel-caption p {
+	color: #ffffff;
+	line-height: 20px;
+}
+.carousel-caption h4 {
+	margin: 0 0 5px;
+}
+.carousel-caption p {
+	margin-bottom: 0;
+}
+
+/*grayscale hover effect*/
+.grayscale img {
+	filter: none;
+	-webkit-filter: grayscale(0%);
+}
+
+.grayscale img:hover {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+
+footer {
+	padding: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #111;
+}
+
+footer ul {
+	/* To make horizontal */
+	list-style-type:none;
+	margin:0;
+	padding:0;		
+}
+footer ul li {
+	display: inline;
+	padding-left: 20px;
+}
+
+footer section {
+	padding: 20px;
+}
+>>>>>>> added grayscale
