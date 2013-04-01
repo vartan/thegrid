@@ -15,14 +15,17 @@
 		width: 100%;
 	}
 
-	h1 {
+	header h1 {
 		color: #fff;
 		margin-top: 80px;
 		font-family: Oswald;
-
 		font-size: 60px;
 		text-transform: uppercase;
 		line-height: 60px;
+	}
+
+	h1 {
+		font-size: 80px;
 	}
 
 	h4 {
@@ -123,6 +126,10 @@
 
 	.padding-top {
 		padding-top: 60px;
+	}
+
+	.text-center {
+		text-align: center;
 	}
 
 	/* BANNER */
