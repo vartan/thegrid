@@ -98,8 +98,10 @@
 	}
 	
 	.subscriber-container {
+		/*
 		z-index: -1;
 		position: relative;
+		*/
 		background-color: #ccc;
 		padding: 30px;
 	}
@@ -111,11 +113,16 @@
 		padding: 8px;
 	}
 
+	.subscriber button:active {
+		background: red;
+	}
+
 	.subscriber button {
-		position: absolute;
 		width: 60px;
+		/*position: absolute;
 		top: 31;
 		right: 95;
+		*/
 		background: #004175 url(../images/envelope.png) no-repeat center center;
 		padding: 11px;
 		border: .5px solid #000;
