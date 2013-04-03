@@ -28,7 +28,6 @@ header h1 {
 h1 {
 	font-size: 80px;
 }
-
 h4 {
 	color: #E6E6E6; /*gray*/
 	background-color: #111; /*blue #004175*/
@@ -155,6 +154,12 @@ nav a:hover {
 		border-top: 1px solid #000;
 	}
 
+	/* MEMBERSHIP FORM */
+	#membership {
+		font-size: 20px;
+	}
+
+
 	/* BANNER */
 	.banner {
 		background-color: #004175;
@@ -168,6 +173,20 @@ nav a:hover {
 		width: 98%;
 		height: 300px;
 		margin: 0 auto;
+	}
+
+	.banner-contact {
+		background-color: #004175;
+		color: #f0f0f0;
+		padding: 30px 0px 30px 0px;
+	}
+
+	.banner-contact h2 {
+		font-size: 50px;
+	}
+
+	.section-contact {
+		padding: 30px 0px 30px 0px;
 	}
 
 	/*grayscale hover effect*/
@@ -310,5 +329,32 @@ nav a:hover {
 	}
 	.carousel-caption p {
 		margin-bottom: 0;
+	}
+
+	/* Form Styles */
+	form ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+	}
+	form .input-text {
+		border: none;
+		background-color: #ccc;
+		width: 300px;
+		height: 50px;
+		padding-left: 10px;
+		font-size: 15px;
+	}
+
+	.submit-button {
+		background-color: #ccc;
+		padding: 15px;
+		font-family: "Open Sans";
+		border: none;
+		text-transform: uppercase;
+	}
+
+	.submit-button:active {
+		background-color: #000;
 	}
 
