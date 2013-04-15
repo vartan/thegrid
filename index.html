@@ -3,6 +3,76 @@
 	<title>Demo</title>
 	<link rel="stylesheet" href="css/960_12_col.css" />
 	<link rel="stylesheet" href="css/styles.css" />
+
+	<style>
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+      top: 90px;
+      padding: 30px;
+      background: rgba(0, 0, 0, .6);
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      text-decoration: none;
+    }
+
+    .carousel .item {
+      height: 500px;
+      position: relative;
+      z-index: -1;
+
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 940px;
+      padding: 0 20px;
+
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 3px 3px rgba(0,0,0,.4);
+    }
+	.carousel-caption h1 {
+		font-size: 60px;
+	}
+
+    .carousel-caption .lead {
+    	 font-size: 25px;
+    }
+    .carousel-caption .btn {
+      color: #ccc;
+    }
+
+	</style>
 </head>
 <body>
 	<header>
@@ -26,21 +96,50 @@
 
 	<div class="padding-top"> <br/> </div>
 
+    <!-- Carousel
+    ================================================== -->
 
-	<section class="banner">
-		<div class="container_12">
-			<div class="grid_12 ">
-				<br/><br/><br/><br><br/><br/><br><br/><br/>
-				<br/><br><br/><br/><br><br/><br/><br/><br/>
-			</div>
-		</div>	
-	</section>
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/arduino.jpg" alt="">
+          <div class="container container_12">
+            <div class="carousel-caption grid_12">
+              <h1>Check out our Autonomous Submarine project.</h1>
+              <br/>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <br/>
+              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/arduino.jpg" alt="">
+          <div class="container container_12">
+            <div class="carousel-caption grid_12">
+              <h1>Another example headline.</h1>
+              <br/>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <br/>
+              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <!-- /.carousel -->
 
+	<!-- SUBSCRIPTION AREA -->
 	<div class="container_12 grayscale">
 		<section class="grid_12">
 			<article class="subscriber-container">
 				<form class="subscriber" action="">
 					<input type="text" placeholder="Add your e-mail here to get e-mail updates" />
+
+					<!-- THIS DOESN'T WORK YET -->
 					<button type="button"></button>
 				</form>
 			</article>
@@ -51,7 +150,7 @@
 		<div class="grid_12"> <h2> Latest Projects </h2> </div>
 
 		<div class="grid_4">
-			<img src="images/autosubmarine.jpg" style="width: 100%"/>
+			<a href="https://sites.google.com/a/eatsociety.org/sunfishapplication/" target="_blank"> <img src="images/autosubmarine.jpg" style="width: 100%"/> </a>
 		</div>			
 		<div class="grid_4">
 			<img src="images/autosubmarine.jpg" style="width: 100%"/>
